@@ -1,0 +1,17 @@
+python_bascis.txt
+
+python architecture ::
+
+Overview of the Architecture
+There are three common components (layers) in the backend side of a Python web application: A web server (such as Apache / Nginx) A WSGI application server (such as Gunicorn / uWSGI) A web application framework (such as Django / Flask)
+
+..................................................
+
+1. web server
+2. WSGI application server 
+3. Web application framework(such as Django/Flask)
+
+..................................................
+
+https://medium.com/techtofreedom/backend-architecture-of-a-python-web-application-7af256ee004c#:~:text=Overview%20of%20the%20Architecture,(such%20as%20Django%20%2F%20Flask)
+

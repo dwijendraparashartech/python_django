@@ -1,0 +1,11 @@
+learn.txt 
+
+1.python prgorams 
+2.python architecture
+3.web application using python
+4.django application framework crud
+5.python application file structure
+6.python methods 
+7.website architectures
+8.libraries in python
+9.

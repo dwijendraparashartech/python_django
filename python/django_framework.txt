@@ -1,0 +1,4 @@
+django_framework.txt 
+
+Django Web Framework offers a shortcut to full integration with your application's database. It provides CRUD (create, read, update, delete) functionality, HttpResponse and cross-site scripting, supplies user management capabilities, offers software administration features and more.
+

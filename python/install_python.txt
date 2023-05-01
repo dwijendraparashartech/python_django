@@ -1,0 +1,7 @@
+install_python.txt
+
+1.Check the python version -
+python --version
+>>  Python 3.8.10
+
+2.
