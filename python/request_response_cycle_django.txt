@@ -1,0 +1,12 @@
+request_response_cycle_django.txt 
+
+
+https://medium.com/@ksarthak4ever/django-request-response-cycle-2626e9e8606e
+
+https://data-flair.training/blogs/django-request-response-cycle/
+
+https://sourcery.blog/how-request-response-cycle-works-in-django-rest-framework/
+
+https://raturi.in/blog/django-request-response-cycle/
+
+

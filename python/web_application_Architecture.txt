@@ -1,0 +1,8 @@
+web_application_Architecture.txt
+
+https://www.interviewbit.com/blog/sap-architecture/
+
+https://www.clickittech.com/devops/web-application-architecture/
+
+https://www.geeksforgeeks.org/how-web-works-web-application-architecture-for-beginners/
+
