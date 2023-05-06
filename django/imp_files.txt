@@ -1,0 +1,68 @@
+imp_files.txt
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Import Files in the Python ::::::::::
+
+_init_py :: Used for Initialization 
+asgi.py:  for deploy code  - Asynchronous Server Gateway Interface
+wsgi.py: for deploy code  - web Server Gateway Interface
+wsgi and asgi ----  
+They both specify the interface and sit in between the web server and a Python web application or framework. One of their jobs is to handle incoming requests from the client, but they go about it in different ways.
+
+settings.py: core file- settings of the application
+logging issues,database settings, logging configration, api keys(external api's)
+urls.py:   Used for Routing 
+models.py: Used for Create Models
+admins.py: to display your models in the Django admin panel. 
+apps.py: configure attributes applications 
+models.py:
+tests.py: simulate requests, insert test data, inspect your application's output and generally verify your code is doing what it should be doing
+views.py: Used for Create Views 
+manage.py: manage your application.
+A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py. The inner mysite/ directory is the actual Python package for your project.
+
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+information of naveen ready -
+
+1.
+manage.py : Which is useful to manage the project 
+
+setting.py : want to do some settings in your project 
+1.SECRET_KEY:  Used for deployment.
+2.DEBUG:  Will give you a lot of information when you stuck somewhere,if you are building a project 
+and if you want to know what is happening behind the scene just make DEBUG=TRUE and it will give you
+all the information but make sure before deploying it on the server make it false because some can 
+hack your machine and they can see you all the logs.
+
+3.INSTALLED_APPS :: Installed apps
+4.MIDDLEWARE : :  for security purpose 
+5.DATABASE :: By default it gives you sqlite but it can also you postgres.
+6.AUTH_PASSWORD_VALIDATORS = []
+
+
+................
+
+2.urls.py - 
+for urls 
+
+................
+
+3.create a app - python manage.py startapp calc
+models.py --- Use ORM and for hold the data 
+tests.py ---  Use for the TestCases
+views.py --- MVT is used 
+
+................
+
+4.
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+learn.txt 
+
+1.python prgorams 
+2.python architecture
+3.web application using python
+4.django application framework crud
+5.python application file structure
+6.python methods 
+7.website architectures
+8.libraries in python
+9.
+
+
+
+
+
+code with harry
+..............................................
+
+in python and django prepare a lot of projects.
+
+learn python before django ----
+
+1.basic data types of python -- variable , dictionary , tuple  , list 
+2.how to import files in python --
+2.1.import from one file to another file 
+2.2.importing of variables , functions and classes - how to import variables and functions 
+3.functions and arguments in functions - pass and parse.
+4.classes and objects in python 
+5.how to create class and how to create objects in python
+6.how to write data , members,functions in class
+7.use the orm of django 
+8.query set object access
+9.html,css,javascript,bootstrap before django
+
+
+8 important python concepts before learn django --
+
+1.general understanding of python- install python , pip ,pip7and how to use python diff versions at diff time , indentation, if else and all.
+2.how to write functions in python - in view return html , pass parameter in functions ,typehinting
+how to call functions in functions, multiple parameters,what is recursion ,for loop conditions how to use,return value
+3.how to import python files- file in folder in folder, init file - deadlock in circular import how to sort,how to import models ,modules,how to partials,import specific function or thing in the file,
+naming conventions in files,clear and crisp understanding of python path,how to create directories.
+4.familiar with control structure - GIL-Global interpreter law- control structure - how to one by one sequences in the application.
+5.string manipulation - how to reverse the string - string ke sare concepts samjho 
+string ke sare programs karo
+6.good understanding of data structures- which data strcutre will be used at what time-
+where to use- list,tuple,dictionary . small data structures knowledge.where to use which
+7.basic understanding of object oriented programming.
+
+

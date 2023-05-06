@@ -1,0 +1,4 @@
+django_crud_links.txt
+
+https://studygyaan.com/django/django-crud-create-retrieve-update-delete-function-based-views
+

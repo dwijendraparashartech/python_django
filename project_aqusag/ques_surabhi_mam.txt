@@ -1,0 +1,27 @@
+ques_surabhi_mam.txt
+
+1.which type of project is this- What is the purpose of this project 
+2.which database is using in this project- MYSQL u have told 
+3.what is this project architectures.
+4.how many servers we are using in this project- web servers - 
+5.what tasks we have to achieve in this project.
+6.any other senior member with me 
+7.mam, are you project manager for this role ?
+8.how to hit the api's - which tool generally you use for api testing - pyTest?
+9.web servers --  which is using?
+10.Which WSGI Server using?
+11.version - python and django 
+12.database  how much time
+13.table seperate banane padhenege.
+14.i think - very very strong database
+15. accurate tools and libraries - need to practical .
+16.python backend frontend react as u did say .
+17.for which country - USA and where it will be run 
+18.you are the project manager.
+19.security concern.
+20.how to take meetings 
+21.what tools we will used for deployment
+22.it will work for which enviornment first - test, development and production
+
+
+ 

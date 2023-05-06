@@ -1,0 +1,7 @@
+imp_concepts_to_learn
+
+1.how to handle database in python.
+2.sql query in python 
+3.what are microservices.
+4.what are the queries 
+

@@ -5,3 +5,7 @@ imp_websites.txt
 python_official_website - 
 https://www.python.org/
 
+python tutorial - 
+https://www.w3schools.com/python/
+
+

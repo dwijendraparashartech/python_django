@@ -1,0 +1,60 @@
+skills.txt
+
+
+CI/CD.
+Jenkins.
+Configuration Management.
+Git.
+Linux.
+Docker.
+Shell Scripting.
+Python Scripting.
+
+.....................................................................................................
+
+
+WHAT DO WE EXPECT
+At least 1 year of experience as a team leader, proven results are welcome
+You have at least 3/4 years of commercial software engineering experience, with Python, and you are hungry to learn new things
+Ability to integrate with external APIs and systems
+Knowledge of Python libraries – both the standard library and popular PyPI ones
+Experience using testing frameworks
+Confidence and experience to peer review other developers’ code
+Ability to adhere to agreed standards and style, keeping the codebase clean and maintainable
+Knowledge of the MVC web framework paradigm
+Good working knowledge of PostgreSQL or other databases
+Good knowledge of Git
+Familiarity with Linux server environment
+Understanding that running your app on EC2 is not enough to call it a “cloud app”
+Hands-on experience applying design concerns in at least one project
+Clear communicator with the ability to articulate complicated matters in plain English
+Listening skills to understand the team as well as clients’ perspectives with the ability to ask insightful questions to get to the real need
+
+.....................................................................................................
+
+
+NICE TO HAVE
+Certificate GCP Cloud Architect or Cloud Practitioner
+
+Docker, Ansible, Terraform
+
+WHAT WILL YOU DO IN THIS POSITION?
+Leading the team, including as needed: technical recruitment, evaluations, one-to-one meetings, inspiring for development, mentoring, evaluation and motivation
+
+Knowledge sharing and creating environment for knowledge exchange in the team
+
+Keeping open and honest communication
+
+Consistently review projects progress and individuals’ evaluation
+
+Coach and mentor development team on technical and soft skills aspects
+
+Collaborate with others to come to the best outcome for our clients
+
+Assessment of the effects and risks for the entire product/project
+
+
+.....................................................................................................
+
+
+

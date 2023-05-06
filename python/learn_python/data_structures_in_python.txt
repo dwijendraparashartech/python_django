@@ -1,0 +1,302 @@
+data_structures_in_python.txt
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:  str
+Numeric Types:  int, float, complex
+Sequence Types: list, tuple, range
+Mapping Type: dict
+Set Types:  set, frozenset
+Boolean Type: bool
+Binary Types: bytes, bytearray, memoryview
+None Type:  NoneType
+................................
+
+Setting the Data Type
+In Python, the data type is set when you assign a value to a variable:
+
+Example Data Type Try it
+x = "Hello World" str 
+x = 20  int 
+x = 20.5  float 
+x = 1j  complex 
+x = ["apple", "banana", "cherry"] list  
+x = ("apple", "banana", "cherry") tuple 
+x = range(6)  range 
+x = {"name" : "John", "age" : 36} dict  
+x = {"apple", "banana", "cherry"} set 
+x = frozenset({"apple", "banana", "cherry"})  frozenset 
+x = True  bool  
+x = b"Hello"  bytes 
+x = bytearray(5)  bytearray 
+x = memoryview(bytes(5))  memoryview  
+x = None  NoneType
+
+................................
+
+Setting the Specific Data Type
+If you want to specify the data type, you can use the following constructor functions:
+
+Example Data Type Try it
+x = str("Hello World")  str 
+x = int(20) int 
+x = float(20.5) float 
+x = complex(1j) complex 
+x = list(("apple", "banana", "cherry")) list  
+x = tuple(("apple", "banana", "cherry"))  tuple 
+x = range(6)  range 
+x = dict(name="John", age=36) dict  
+x = set(("apple", "banana", "cherry"))  set 
+x = frozenset(("apple", "banana", "cherry"))  frozenset 
+x = bool(5) bool  
+x = bytes(5)  bytes 
+x = bytearray(5)  bytearray 
+x = memoryview(bytes(5))  memoryview  
+
+................................
+
+What is tuple in python ::::: 
+
+Tuple. Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage. A tuple is a collection which is ordered and unchangeable.
+
+................................
+
+all data types----
+
+Text Type:  str
+Numeric Types:  int, float, complex
+Sequence Types: list, tuple, range
+Mapping Type: dict
+Set Types:  set, frozenset
+Boolean Type: bool
+Binary Types: bytes, bytearray, memoryview
+None Type:  NoneType
+
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+
+important data types in python and their understanding --
+
+complex - 
+list - 
+tuple - single element run 
+range -
+dict - key value  - can convert in json 
+set - 
+frozenset - 
+bytes -
+bytearray -
+memoryview -
+
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+
+drf - django rest framework
+
+fast api - asynchronous support
+django - asynchronous and synchronous  both 
+
+...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+1.tuple ------------------
+
+features of tuple-
+
+tuple is adult data type 
+tuple work in sequence 
+tuple write in the round bracket
+tuple is immutable - delete or any other operation work will not work
+tuple is ordered data type 
+tuple work in parenthesis  - ()
+functions used in list and dictionary can not be used in the tuple
+tuple also works on index number 
+single element is not tuple
+tuple must have more than one element 
+
+
+how to create tuple -
+t = (20,30,40,50)   #  This is tuple 
+t = ("Python") # this is not tuple because single value 
+
+how to access the elements inside tuple -
+p = t[2]
+print(a) => 40
+
+
+how to check the type of tuple -
+print(type(t))
+
+iterate tuple--
+l = len(t)
+for a in range(l): 
+	print(a)
+
+for a in range(l)
+	print(t[a])
+
+functions used in tuple -
+min()
+max()
+round()
+index()
+sum()
+
+sum = sum will always work at integer 
+t = (20.40,60,80)
+c = t.count(20)
+i = t.index(40)
+s = sum(t)
+s = sum(t,10)  #> 10 will add in the sum output of t
+print(s)
+m= min(t)
+print(m)
+
+m = max(t)
+print(m)
+
+
+
+
+Q- diff in list and tuple -
+list is slow iterate and tuple is fast iterate 
+list and tuple can be index but sets are not indexted 
+
+Q- 
+
+
+
+...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+What are sets ::
+sets-
+unordered data type
+unindex
+sets inside data can be deleted but cant be changed.
+
+
+....
+define sets  =  set() or {} 
+curley bracket means does not dictionary dictionary 
+in dictionary key and value 
+in set only value 
+set take one value only once it does not take the repeat value
+
+s = {10,20,30}
+print(s)
+
+output can be random 
+
+iterate the set -------
+
+for a in s 
+print a 
+
+#> 
+10,
+20,
+30
+........................
+
+functions of sets --
+
+set()
+add()
+pop() - will delte randomly -  s.pop()
+remove()
+clear()
+discard()
+
+........................
+
+convert the list data into set ----
+l = [10,20,30]
+s = set(l)
+print(s)
+
+........................
+
+convert the tuple into set ----
+
+
+
+
+
+s = {10,20,30}
+s.add(40)
+print(s)
+
+........................
+
+delete through pop -
+
+s = {10,20,30}
+print(s.pop()) - 30 
+print(s)
+
+
+
+........................
+
+delete -
+remove -
+pop -
+clear - blank the complete set 
+discard - 
+
+s = {10,20,30}
+s.remove(20)
+print(s)
+
+........................
+
+set value can not be changed.
+
+update method in sets - 
+s =  {10,20,30}
+l = [30,40,60]
+s.update(l)
+print(s)
+{10,30,40,50,60}
+
+........................
+
+diff between disgard and remove --
+
+remove() -- if the item to remove does not exist,remove() will raise an error
+discard() -- if the item to remove does not exist,discard() will  not raise an error
+update() -- can add any list in the set , will not change the already value
+pop() -- it will randomly remove the element inside the set 
+clear() -- it will blank the set 
+add() -- can add any value in the set
+update() -- can add any list in the set 
+.........................
+
+pop use -
+pop work with indexing in list 
+pop does not work with indexing in the sets 
+
+.........................
+
+|||||||||||||||||||||||||||||||||||||||||||||||||||
+
+dictionary --
+
+clear() -- remove all items from the dictionary 
+items() -- return a new view of the dictionary's keys and values tuple pair
+popitem() -- remove an return an arbitrary item (key,value) .Raises key error if the dictionary is empty
+keys() -- return a new views of the dictionary keys
+values() -- return a new views of the  dictionary values 
+
+dictionary create --
+squares = {1:1,2:4,3:9,4:16,5:25}
+
+
+
+
+
+
+
+
+
+
+

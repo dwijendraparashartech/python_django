@@ -1,0 +1,39 @@
+meetings_with_surabhi.txt
+
+
+
+
+1.first meeting - 8 to 9 - at -   may 4 
+
+client location team  foreign key
+request comes - work order in market term
+client table
+location table
+staff /team table
+work order table  - crucial components - 
+severity/priority - ek column hi rahega bus 
+trade - sub trade is associated with trade 
+trade -electrical , sub trade - water heater ,, trade - electritan + plumber 
+initial budget - NTE - not to exceed , 
+work order table - location id , client id 
+one order is generate in system 
+normal conditions at the time 
+.................
+
+slack or trello = 
+
+software+service   - in our com[any 
+dispatcher ===   
+1. integration through erp
+2. client manually add but work order generate system - email and pdf parsing 
+3, websocket ke through ek continuous query - for any new email --  email parsing first then pdf parsing code will read this code - which data will match with which 
+
+.................
+
+mail parse hui and system ke andar ek work order generate ho gaya haldiram ka order generate ho gaya
+project two main perspective - 
+reflect js - map library - disadvantage - not like google
+advantage- 
+match box - gps tracking is very good 
+real time tasks generate - 
+

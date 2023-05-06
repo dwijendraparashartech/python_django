@@ -1,0 +1,6 @@
+khajan_imp.txt
+
+web server - nginx apache - proxy 
+wsgi server - 
+
+queries - pycharm use karna 

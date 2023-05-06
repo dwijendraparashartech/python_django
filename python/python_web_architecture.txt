@@ -1,0 +1,62 @@
+
+wsgi - Web Server Gateway Interface (WSGI)
+asgi - Asynchronous Server Gateway Interface (ASGI) 
+........................................................
+
+python_web_architecture.txt 
+https://medium.com/techtofreedom/backend-architecture-of-a-python-web-application-7af256ee004c
+
+1.there are 3 common components of  a python web architecture 
+A web server (such as Apache / Nginx)
+A WSGI application server (such as Gunicorn / uWSGI)
+A web application framework (such as Django / Flask)
+
+........................................................
+
+Relationship ::::::::::
+
+1.Application Framework is connected to WSGI Server
+2.WSGI Server is connected to Web Server 
+3.Web Server is connected to Client
+
+........................................................
+
+How this Relationship work --
+
+1.We need a Web Server to receive HTTP requests and send back responses containing status code 
+Web servers used are most popular are - NGINX and APACHE 
+The Apache HTTP Server has been the most commonly deployed web server on the Internet for 20+ years.
+Nginx is the second most commonly used server for the top 100,000 websites.
+
+
+2.WSGI Server Layer --
+Types of WSGI Servers - Gunicorn and uWSGI  == two most popular web servers 
+benefits of using good WSGI Server -- 
+1.flexibility: we can choose the pair of framework and server , which one we want to connect.
+2.promote scaling: 
+WSGI server takes care of everything which happens in-between the web server and the web application. 
+This way, when coding up a Python application we don’t need to find solutions for:
+Communicating with multiple web servers
+Reacting to lots of web requests at once and distributing the load
+Keeping multiple processes of the web application running
+
+
+3.Web application framework layer
+Python’s web application framework makes the process of app development much easier. A framework implements common issues for a web application (such as template system, ORM (Object Relational Mapping) systems, user authentication, content administration, site maps, RSS feeds, and many more tasks) and we just need to develop our commercial logic upon it.
+There are also many application frameworks for Python web development. Such as Django, Flask and Tornado.
+
+
+
+
+
+........................................................
+
+Questions Formed --
+
+1.what are the application frameworks for python web development -
+There are also many application frameworks for Python web development. Such as Django, Flask and Tornado.
+
+2.What tool we used in python for api testing
+PyTest  , tavern 
+
+3.

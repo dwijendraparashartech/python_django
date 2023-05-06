@@ -1,0 +1,22 @@
+django_install.txt
+
+how to install django latest official release - 
+
+$ pip install Django==4.2
+
+
+Option 1: Get the latest official version
+The latest official version is 4.2 (LTS). Read the 4.2 release notes, then install it with pip:
+
+pip install Django==4.2
+
+
+Option 2: Get the latest development version
+The latest and greatest Django version is the one that’s in our Git repository (our revision-control system). This is only for experienced users who want to try incoming changes and help identify bugs before an official release. Get it using this shell command, which requires Git:
+
+git clone https://github.com/django/django.git
+
+.............................................................
+
+
+

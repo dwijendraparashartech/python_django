@@ -1,0 +1,12 @@
+self_programming_in_python.txt 
+
+
+1.How to print in python :: 
+
+print("Hello, World!")
+
+
+2.How to File Handling in Python :: 
+
+The key function for working with files in Python is the open() function.
+

@@ -1,7 +1,99 @@
 install_python.txt
 
+APT, or Advanced Package Tool  or default package manager
+
+PPA, or Personal Package Archives 
+
+
+
+
+
+............
+
 1.Check the python version -
 python --version
 >>  Python 3.8.10
 
-2.
+2.How to Install Python on Ubuntu ?
+
+A.Install Python Using APT
+
+B.Use Deadsnakes PPA to Install Python 3 on Ubuntu
+
+C.Install Python 3 on Ubuntu From Source Code
+
+..........................
+
+A.Install Python Using APT
+
+1. Update your local system's repository list by entering the following command:
+sudo apt update
+
+2.Download the latest version of Python:
+sudo apt install python3
+
+3.APT will automatically find the package and install it on your computer.
+
+..........................
+
+B.Use Deadsnakes PPA to Install Python 3 on Ubuntu
+
+Install the above-mentioned package on your system by typing in the following command:
+sudo apt install software-properties-common
+
+Add the official Deadsnakes PPA link to your system's repository list:
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+Update your system's package list:
+sudo apt update
+
+Download the latest version of Python from the added PPA:
+sudo apt install python3
+
+..........................
+
+C.Install Python 3 on Ubuntu From Source Code
+
+You can also download and build the latest version of Python from the official Python website. Although compiling the source code might seem a bit daunting to you at first, it'll become easier once you know the process.
+
+1. Update your system's local repository list:
+sudo apt update
+
+2. Install supporting dependencies on your system with APT:
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+
+3.Make a new directory to store the Python source files:
+mkdir /python && cd /python
+
+4.Download the Python source code from the official FTP server:
+wget https://www.python.org/ftp/python/3.11.0/Python-3.11.0a7.tgz
+
+5.Extract the TGZ file that you just downloaded:
+tar -xvf Python-3.11.0a7.tgz
+
+6.You need to perform tests and optimizations before installing Python. This is important as it increases the execution speed of your code by at least 10 percent:
+cd Python-3.11.0a7
+./configure --enable-optimizations
+
+7.Build the package using the MakeFile present in the directory:
+sudo make install
+
+8.After you've implemented these steps, check if Python has been installed on your computer by typing python3 --version in the terminal.
+
+Note that Python modules are managed through PIP. PIP is a package management system used to download and add libraries from the Python Package Index. Installing Python PIP on your system is important if you want to use additional modules in your next Python project.
+
+..........................
+
+Updating Python to the Latest Version :: 
+
+sudo apt install python3
+
+You can also use the --only-upgrade flag to update your packages.
+
+sudo apt --only-upgrade install python3
+
+
+
+
+
+

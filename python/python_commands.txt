@@ -1,0 +1,13 @@
+python_commands.txt
+
+1.how to open console in python 
+$python
+
+2.how to exit console in python 
+$exit()
+
+3.read  the file in the command line 
+$ python filename
+$ python myfile.py
+
+

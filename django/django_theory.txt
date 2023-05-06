@@ -1,0 +1,29 @@
+django_theory.txt
+
+1.what is django ?
+
+Django is a free and open-source web application framework written in Python. It is used for rapid web development and clean, pragmatic design. It is built by experienced developers to make repetitive tasks easier, so we can focus on writing apps instead of reinventing the wheel. Django was created in 2003 when web developers at the Lawrence Journal-World newspaper started using Python for their web development. 
+It can be used to build large e-commerce websites, blogging sites, or anything else that requires a scalable, high-performing website. 
+
+2.What is the App in Django Project?
+An app is a web application that has a specific meaning in your project, like a home page, a contact form, or a members database.
+In this tutorial we will create an app that allows us to list and register members in a database.
+But first, let's just create a simple Django app that displays "Hello World!".
+In this tutorial we will create an app that allows us to list and register members in a database.
+
+
+3.What are Django Views?
+Django views are Python functions that takes http requests and returns http response, like HTML documents.A web page that uses Django is full of views with different tasks and missions.
+Views are usually put in a file called views.py located on your app's folder.
+my_tennis_club/members/views.py:
+from django.shortcuts import render
+from django.http import HttpResponse
+def members(request):
+    return HttpResponse("Hello world!")
+Note: The name of the view does not have to be the same as the application.
+I call it members because I think it fits well in this context.
+
+4.what is pip in python ?
+
+A performance improvement plan (PIP) is a document that aims to help employees who are not meeting job performance goals. A PIP covers specific areas of performance deficiencies, identifies skills or training gaps and sets clear expectations for an associate's future conduct.
+

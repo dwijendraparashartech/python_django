@@ -1,0 +1,26 @@
+django_websites
+
+Official Website:::::
+
+Django: The web framework for perfectionists with deadlines
+
+https://www.djangoproject.com
+
+
+Django Tutorial :::::
+
+https://www.w3schools.com/django/
+very good link 
+
+https://www.tutorialspoint.com/django/index.htm
+very good link 
+
+https://www.geeksforgeeks.org/django-tutorial/
+
+https://www.javatpoint.com/django-tutorial
+
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+
+
+

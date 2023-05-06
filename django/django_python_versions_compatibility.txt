@@ -1,0 +1,11 @@
+django_python_versions_compatibility.txt
+
+What Python version can I use with Django?¶
+Django version	Python versions
+3.2	3.6, 3.7, 3.8, 3.9, 3.10 (added in 3.2.9)
+4.0	3.8, 3.9, 3.10
+4.1	3.8, 3.9, 3.10, 3.11 (added in 4.1.3)
+4.2	3.8, 3.9, 3.10, 3.11
+
+..................................................
+

@@ -1,0 +1,35 @@
+commands.txt 
+
+
+1.install pip/upgrade pip
+$ python -m pip install --upgrade pip
+
+2.install virtual enviornment wrapper 
+$ pip install virtualenvwrapper-win   
+
+3.install django
+$ pip install django
+
+4.run django server 
+python manage.py run server 
+
+5.quire django server 
+ctrl+C
+
+5.run console 
+$ python
+
+6.exit console 
+$ exit() 
+
+7.open application at the browser - 
+ip address at url -  http://127.0.0.1:8000
+
+
+8.Migrate -
+$ python manage.py migrate
+
+
+9.Run any file - 
+$ python file.py
+

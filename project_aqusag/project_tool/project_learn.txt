@@ -1,0 +1,26 @@
+project_learn.txt :::::::::::
+
+.................................................................
+
+1.learn python
+2.learn react
+3.some javascript libraries
+4.mysql
+5.javascript libraries - map-reflet,mapbox
+6.framework- django ,fast api 
+7.concept of foreign key
+8.concept of database
+9.concept of orm.
+
+.................................................................
+
+must understand - my w ---
+
+1.write all type of queries in python
+2.debugging in python.
+3.debugging in django
+4.debugging in javascript.
+5.debugging in react 
+6.dev tools
+7.programs of javascript
+8.crud 

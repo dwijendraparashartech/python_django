@@ -16,13 +16,45 @@ python manage.py runserver
 4.Open the default webbrowser of python :::::::::::::::::::::
 http://127.0.0.1:8000/
 
-5.Access to the Browser :::::::::::::::::::::::;
+5.Access to the Browser ::::::::::::::::::::::::
 localhost:8000/show
 
-6.
+6.Migrate Command :::::::::::::::::::::::: 
+py manage.py migrate
+
+7.start python console for add edit records
+$ py manage.py shell
+
+8.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
+Important Files in Django ::
 
+1.setting.py ::  settings.py is a core file in Django projects. It holds all the configuration values that your web app needs to work; database settings, logging configuration, where to find static files, API keys if you work with external APIs, and a bunch of other stuff.
+
+2.urls.py ::  A request in Django first comes to urls.py and then goes to the matching function in views.py. Python functions in views.py take the web request from urls.py and give the web response to templates. It may go to the data access layer in models.py as per the queryset. Template is the presentation layer.
+
+3.views.py :: A view function, or view for short, is a Python function that takes a web request and returns a web response. This response can be the HTML contents of a web page, or a redirect, or a 404 error, or an XML document, or an image . . . or anything, really.
+
+4.wsgi.py ::  Django's primary deployment platform is WSGI, the Python standard for web servers and applications. Django's startproject management command sets up a minimal default WSGI configuration for you, which you can tweak as needed for your project, and direct any WSGI-compliant application server to use.
+
+wsgi - Web Server Gateway Interface -  is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language. 
+
+5.asgi.py :: ASGI (Asynchronous Server Gateway Interface) is a spiritual successor to WSGI, intended to provide a standard interface between async-capable Python web servers, frameworks, and applications.
+
+6.apps.py :: The apps.py convention merely allows Django to load them automatically when INSTALLED_APPS contains the path to an application module rather than the path to a configuration class.
+
+7.forms.py :: forms.py is where the django documentation recommends you place all your forms code; to keep your code easily maintainable. Also, since its a convention mentioned in the documentation, it helps when you are collaborating with others because that is where others will expect to look for your code dealing with forms.
+
+8.models.py :: Model.py is one of the most import concept of django framework. It allows us to completely define the database of our web applications allowing us to : Declare tables and fields of our database. Define all meta-data of our Database.
+
+9.tests.py :: The actual benefit of the pytest is to writing pytest test cases. The pytest test cases are generally sequence of methods in the Python file starting. It supports the built-in assert statement instead of using a special assert*() methods. It also provides support for cleaning for test cases.
+
+10.manage.py :: A command-line utility that lets you interact with this Django project in various ways. You can read all the details about manage.py in django-admin and manage.py. The inner mysite/ directory is the actual Python package for your project.
+
+11.admin.py :: django-admin.py is Django's command-line utility for administrative tasks. This document outlines all it can do. In addition, manage.py is automatically created in each Django project.
 
 
 

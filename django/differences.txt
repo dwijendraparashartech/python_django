@@ -1,0 +1,25 @@
+differences::
+
+
+django and ror diff ::
+
+https://www.javatpoint.com/ruby-on-rails-vs-django
+
+Difference between Ruby on Rails and Django
+Below are the main difference between Django and RoR.
+
+Parameters	Ruby on Rails	Django
+Language	RoR is an open-source framework written in Ruby.	Django is an open-source framework written in Python.
+Architecture	It follows the Model View Controller (MVC).	It follows the Model View Template (MVT).
+Usage	It is used to develop database backend application and metaprogramming.	It is used to develop rich and complex database-driven website.
+Speed and Performance	RoR is slightly faster than Django because it has the advantage of a rich repository of excellent libraries.	Django Rest Framework provides the excellent performance boost.
+Stability	RoR provides a convenient approach for the reuse of code and minimizes the dependencies.	Django practices a more conventional approach by sticking to any proven method.
+Syntax	RoR's syntax is much flexible as compared to Django, and sometimes it can create problems and make it harder to pass a project to other team.	Its syntax is easy to read and debug.
+Documentation of Framework	Documentation of Ruby on Rails is less effective than Django.	Django comes with detailed and well-structured documentation. Anyone learn Django's concept in detail using its documentation.
+Community	It has huge community of developers.	It has a small community of developers.
+Static files	It serves the static files as they are configured.	It provided the built-in configuration for static files.
+Web Servers	It uses the NGINX, Apache, and WEBrick as the prominent servers.	The main servers of Django are NGIX using WSGI, Apache, Gunicorn, and Cherokee.
+
+..................................................................................................
+
+

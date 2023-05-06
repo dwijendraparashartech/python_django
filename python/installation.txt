@@ -1,0 +1,24 @@
+installation.txt :::::::::::::::::::::::::
+
+First We Check :::::::::::::::
+
+1. python --version
+2. pip --version
+3. django-admin --version 
+
+..........................................
+
+1.install python
+
+
+2.install pip/upgrade pip
+$ python -m pip install --upgrade pip
+
+3.install virtual enviornment wrapper 
+$ pip install virtualenvwrapper-win   
+
+4.install django
+$ pip install django
+
+..........................................
+

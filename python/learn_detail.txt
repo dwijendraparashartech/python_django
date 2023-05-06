@@ -1,0 +1,16 @@
+learn_detail.txt
+
+1.data structures in python ----
+
+
+
+
+2. how to import files in python -----
+
+
+
+
+
+3.libraries that support the python ------
+
+

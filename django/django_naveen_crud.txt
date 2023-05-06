@@ -1,0 +1,76 @@
+django_naveen_crud.txt 
+
+
+before 
+.............................
+
+
+
+1. create urls.py in the app - calc 
+2. import the 'url.py app' in the main url.py - after that it will work.
+
+3. telusko/urls.py ------------
+from django.contrib import admin
+from django.urls import path,include
+urlpatterns = [
+    path('',include('calc.urls')),
+    path('admin/', admin.site.urls),
+]
+
+4. calc/views.py -------------
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+def home(request):
+	return HttpResponse("Hello World");
+
+OR
+
+def home(request):
+	return HttpResponse("<h1>Hello World</h1>");
+
+5.calc/urls.py --------------
+from django.urls import path 
+from .import views 
+urlpatterns = [
+	path('',views.home,name='home')
+]
+
+6.Run the server ---------- This all till now to print on the one text only this is the first program of the Python Application :::::::::  
+Run Server ------ pyton manage.py runserver 
+open browser -----  http://127.0.0.1:8000
+"Hello World" will be print at the browser 
+
+7.Now will work on Templates - We can have the HTML Page and we can have the dynamic content 
+this is the concept of 'DTL- Django Template Language' 
+
+8.In root folder create a folder templates and in that create one file home.html
+template folder name anything by your choice - templates or pages or anything or services whatever you think it is suitable.
+
+9.Go to settings file - in templates you have to specify something -
+this is the settings.py file in the root directory ---
+
+settings.py file --
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+
+note - your django should know where you have all the templates --
+
+Replace DIRS to below -
+'DIRS': [os.path.join(BASE_DIR,'templates')],
+

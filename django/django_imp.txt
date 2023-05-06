@@ -1,0 +1,31 @@
+django_imp.txt
+
+1. Best Database for Django
+PostgreSQL is the best 
+SQLite, MySQL, and PostgreSQL.
+
+2.diff between mysql and postgresql - 
+
+Let us take a look at the major differentiating factors between MySQL and PostgreSQL databases.
+
+MySQL	PostgreSQL
+MySQL is available under GNU Licence and other proprietary license agreements.	PostgreSQL is released under PostgreSQL License.
+MySQL offers paid versions with support from Oracle Corporation.	Completely free and open-source solution.
+MySQL ACID compliance depends on using the NDB and InnoDB cluster storage engines.	PostgreSQL is a complete ACID-compliant solution.
+MySQL has a speed advantage in OLAP (Online Analytical Processing) and OLTP (Online Transactional Processing)	PostgreSQL performs well in the execution of complex queries.
+MySQL is best suited for BI (Business Intelligence) applications.	While PostgreSQL works well with BI applications, it’s geared more towards Data analysis and Data Warehousing applications.
+
+
+3.Which databases django officially support?
+
+Django officially supports the following databases:
+
+PostgreSQL
+MariaDB
+MySQL
+Oracle
+SQLite
+
+
+Django supports PostgreSQL 9.5 and higher. psycopg2 2.5.4 or higher is required, though the latest release is recommended.
+
