@@ -1,0 +1,29 @@
+python_libraries.txt   ::  https://www.youtube.com/watch?v=0IbkMZHOsC0
+
+1.TENSOR FLOW -  For machine learning 
+
+2.NUMPY - Numerical Python - start carrer as data analyst
+
+3.PANDAS - To manage data , working on csv or excel files 
+
+4.PYTORCH- Developed by facebook -  alternate to TENSOR FLOW
+
+5.OPENCV- 
+
+6.BEAUTIFUL SOAP-  Popular library for web scrapping 
+
+
+7.TKINTER - Building gui based best applications.
+
+
+8.PILLOW - 
+
+
+9.MATPLOTLIB - get insight of the data 
+
+
+10.TEXTBLOB - Popular library - natural language 
+
+............................................................................
+
+

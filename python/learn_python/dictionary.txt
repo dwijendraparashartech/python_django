@@ -1,0 +1,238 @@
+dictionary.txt
+
+
+Def -  The dictionary is an unordered collection that contatins key:value pairs seperated by commas inside curly brackets.Dictionary is optimized to retrieve values when the key is known. 
+
+............................................
+
+The following declares a dictionary object -
+
+capitals = {"USA":"Washington DC","France":"Paris","India":"New Delhi"}
+print(capitals)
+print(type(capitals))
+
+key - the key value should be unique and an immutable object
+tuple can be as key but list can not be as key because list is mutable.
+............................................
+
+Valid Examples of the dictionary::
+
+d = {} #empty dictionary
+numNames = {1:"One",2:"Two",3:"Three"}  # int key and string value 
+ducNames = {1.5:"One and Half",2.5:"Two and half",3.5:"Three and Half"}
+items = {("Parker","Reynoalds","Camlin"):"pen",("LG","Whirlpool","Samsung"):"Refirgrator"}
+romanNames = {'I':1,'II':2,'III':3,'IV':4,'V':5} # str key , int value 
+
+list can not be used as a key in the dictionary
+list can be used as a value in the dictionary 
+
+dict_obj = {["Mango","Banana"]:"Fruit",["Blue","Red"]:"color"}   # Not valid 
+dict_obj = {"Fruit":["Mango","Banana"],"color":["Blue","Red"]:} 
+
+# Note - 
+The same key can not appear more than once in a collection.
+if the same key appear more than once then only the last key will be ratained.
+the value can be of any data type
+one value can be assigned to more than one key 
+numNames = {1:"One,2:"Two",3:"Three",2:"Two",1:"One",2:"Two"}
+
+............................................
+
+Create Dictionary by another method --
+A Dictionary can also be created using the dict() constructor method 
+emptydict = dict()
+numdict = dict(I='one',II='two',III='three')
+............................................
+
+How to Access Dictionary :: 
+
+Dictionary is an unordered collection , so a value can not be accessed using an index , instead a key must be specified in the sqaure brackets as shown below --- 
+
+Examples of get dictionary values :: 
+numNames = {1:"One",2:"Two",3:"Three"}
+print(numNames[1],numNames[2],numNames:[3]) #output: One Two Three
+
+Dictionary values can be accesed through the key only not by the index because dictionary is unordered.
+
+............................................
+
+How to Access the Vaues without the Key - 
+
+Use the get() method to retrieve the key's value even if keys are not known.IT returns None if the key does not exist instead of raising an error.
+
+numNames = {1:"One",2:"Two",3:"Three"}
+print(numNames.get(1),numNames.get(2),numNames.get(3))
+
+capitals = {"USA":"WashingtonDC","France":"Paris","India":"New Delhi"}
+print(capitals.get("USA"),capitals.get("France"))
+
+
+............................................
+
+
+How to Access the Dictionary using the For Loop - 
+
+capitals = {"USA":"WashingtonDC","France":"Paris","India":"New Delhi"}
+for key in capitals:
+	print("key = "+ key + ",value = "+ capitals[key])
+
+
+output - 
+key = 'USA',value = 'Washington DC'
+key = 'France',value = 'Paris'
+key = 'India',value = 'New Delhi'
+
+Update Dictionary - 
+The key can not appear more than once, Use the same key and assign a new value to it to update the dictionary object -- 
+
+captains = {"England":"Root","Australia":"Smith","India":"New Delhi"}
+captains['India'] = 'Virat'
+captains['Australia'] = 'Paine'
+print(captains)  #outut - {'England':'Root','Australia':'Virat','Australia':'Pane'}
+
+............................................
+
+
+Add a new key value pair to the dictionary -- 
+if you use a new key and assign a value to it then it will add a new key value pair into the dictionary 
+
+Example: Add new key value pair 
+
+captains = {'England':'Root','India':'Dhoni'}
+captains = captains['south africa'] = 'plessis'
+print(captains)
+
+............................................
+
+
+Deleting Values from a Dictionary -- 
+Three methods we can use to delete a pair of dictionary or dictionary object itself -- 
+To delete a pair use its key as a parameter 
+To delete a dictionary object itself use del dictionary_name 
+
+captains = {'Australia':'Paine','India':'Virat','Srilanka':'Jaisurya'}
+
+............................................
+
+
+delete a key value pair -  
+del captains['Australia'] # deletes a key value pair 
+print(captains)
+
+del captains # delete dict object 
+#print(captains) #error
+
+............................................
+
+--Retrieve Dictionary Keys and Values 
+
+The keys() and values() methods return a view objects containing keys and values respectively 
+d1 =  {'name':'steve','age':21,'marks':'60,'course':'Computer Engg'}
+
+print(d1.keys())  #output: dict_keys(['name','age','marks','course'])
+print(d1.values())  #output: dict_values(['steve',21,60,'Computer Engg'])
+
+
+
+Check Dictionary Keys -----  in or not in
+You can check whether a popular key exist in a dictionary collection or not using the in or not in ketwords
+note that it only checks for keys not valyes 
+
+Example: Check Keys 
+
+captains = {'England':'Root','Australia':'Paine,'India':'Virat','Srilanka':'Jaysrya'}
+
+b = 'England' in captains 
+print(b)  #True
+
+b = 'India' in captains
+print(b) #True
+
+b = 'France' in captains
+print(b) #False
+
+............................................
+
+Multi-dimensional Dictionary --
+
+Let's assume there are three dictionary objects,as below:
+
+d1 = {"name":"Steve","age":25,"marks":60}
+d2 = {"name":"Anil","age":23,"marks":75}
+d3 = {"name":"Asha","age":20,"marks":70}
+
+Let's assign roll numbers to these students and create a multi dimensional dictionary with roll number as key and the above dictionary as well 
+
+
+students = {1:d1,2:d2,3:d3}
+print(students)
+print(students[1])
+print(students[2])
+print(students[3])
+
+
+The student object is a two dimensional dictionary.here d1,d2,d3 are assigned as values to the keys 1,2,3 respectively.The students[1] returns d1.
+
+Built in Dictionary Methods ------- 
+
+1.
+Method: dict.clear()
+Description: Remove all the key value pairs from the dictionary
+
+2.
+Method:dict.copy()
+Description:Return a shallow copy of the dictionary
+
+3.
+Method:dict.fromkeys()
+Description: Create a new dictionary from the given iterable(string,list,set,tuple) as keys and with the specified value.
+
+4.
+Method:dict.get()
+Description: Return the value of the specified key
+
+5.
+Method:dict.items()
+Description:Return a dictionary view object that provides a dynamic view of the dictionary elements as a list of key-value pairs.This view object changes when the dictionary changes.
+
+6.
+Method: dict.keys()
+Description: Returns a dictionary view object that contains the list of keys of the dictionary
+
+7.
+Method:dict.pop()
+Description: Removes the keys and returns the value, if a key does not exist in the dictionary.then returns the default value if specified,else  throw a KeyError.
+
+8.
+Method:dict.pop(item)
+Description: Removes and return a tuple of (key,value) pair of the dictionary.Pairs are returned in the last in first out(LIFO) order.
+
+9.
+Method:dict.setdefault()
+Description: Returns the value of the specified key in the dictionary.if the key not found, then it adds the key with the specified default value if not specified then it set None Value.
+
+10.
+Method:dict.update()
+Description: Updates the dictionary with the key value pairs from another dictionary or another iterable such as tuple having key value pair.
+
+11.
+Method:dict.values()
+Description: Returns the dictionary view object that provides a dynamic view of all the values in the dictionary.This view object changes when the dictionary changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

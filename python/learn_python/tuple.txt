@@ -1,0 +1,6 @@
+tuple.txt
+
+link ::  https://www.tutorialsteacher.com/python/python-tuple
+
+
+

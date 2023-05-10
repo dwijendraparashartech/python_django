@@ -289,9 +289,123 @@ values() -- return a new views of the  dictionary values
 
 dictionary create --
 squares = {1:1,2:4,3:9,4:16,5:25}
+print(squares)
+squares.clear()
+print(squares)
 
 
+a = {1:1,2:4,3:9,4:16,5:25}
+{}
 
+items()  - it will create a tuple pair
+The items() method returns a view object that displays a list of dictionary's(key,value) tuple pair
+syntax- dictionary.items()
+squares = {1:1,2:4,3:9,4:16,5:25}
+print(squares.items()) 
+output -  {1:1,2:4,3:9,4:16,5:25}
+dict_values([(1:1),(2:4),(3:9),(4:16),(5:25)])
+
+
+popitem()
+the popiem() function will remove and return an arbitrary item(key,value).Raise key error if the dictionary is empty.
+syntax - dictionary.popitem()
+squares = {1:1,2:4,3:9,4:16,5:25}
+print(squares)
+squares.popitem()
+print(squares)
+
+....................................................
+
+keys() - The keys() method returns a view object that displays a list of all the keys in the dictionary 
+syntax - dictionary.keys()
+squares = {1:1,2:4,3:9,4:16,5:25}
+print(squares)
+print(squares.keys())
+output - {1:1,2:4,3:9,4:16,5:25}
+dict_keys([1,2,3,4,5])
+
+....................................................
+
+values()- the values() method returns a view object that display a list of all the values in the dictionary 
+
+
+....................................................
+frozenset---  can perform operation of union and intersection between two sets 
+fset = frozenset(vowels)
+fset
+type(frozenset)
+type(fset)
+#=>  frozenset({'i','o','u','e','a'})
+....................................................
+
+union of sets --
+vowels='aeiou'
+fset1=frozenset(vowels)
+fset2={'i','u','l','m'}
+fset2=frozenset(fset2)
+
+fset.union(fset2)
+fset.intersection(fset2)
+fset.difference(fset2)
+
+........................................................
+Functions in Python ::
+there are 2 types of function in python -
+1.inbuilt functions 
+2.user defined functions 
+........................................................
+
+1.simple function create 
+2.function with arguments create
+3.return type functions 
+
+function is created with def keyword --
+
+define the function ---- 
+
+def simplefunction()
+	print("Welcome to WSCube")
+
+
+call the function ---- 
+simplefunction()
+
+function with argument ---
+def sumdata(a,b)
+	print(a+b)
+
+
+n=10
+n1=20
+sumdata(n,n1)
+
+
+m1=10
+m2=20
+sumdata(m1,m2)
+
+can send default value inside argument:
+
+def sumdata(a,b)
+print(a,b)
+sumdata(20)
+
+sumdata(20,10)
+
+if you give the value then it will be override to default value otherwise not 
+
+
+note - there is no space in function name 
+- there is no special character in function name
+
+return the function ---
+
+to let a function return a value, use the return statement: 
+
+def square(x);
+	return x*x
+s = square(5)
+output: - 25 
 
 
 

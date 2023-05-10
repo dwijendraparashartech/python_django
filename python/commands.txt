@@ -33,3 +33,4 @@ $ python manage.py migrate
 9.Run any file - 
 $ python file.py
 
+s

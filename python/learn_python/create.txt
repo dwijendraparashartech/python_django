@@ -1,0 +1,22 @@
+create.txt
+
+
+create dictionary ::
+Dict = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
+Dict = dict({1: 'Geeks', 2: 'For', 3: 'Geeks'})
+Dict = dict([(1, 'Geeks'), (2, 'For')])
+print(Dict)
+
+create tuple ::  ordered , unchangeable,allow duplicate values.Indexed 0 to 1 .
+mytuple = ("apple", "banana", "cherry")
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
+
+create list  :: ordered, square brackets,changeable,allow duplicates,can contain diff data types.
+mylist = ["apple", "banana", "cherry"]
+print(thislist)
+
+create set  :: unordered, unchangeable*, and unindexed, do not allow duplicate values.
+myset = {"apple", "banana", "cherry"}
+
+create frozen_method ::

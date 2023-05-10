@@ -1,0 +1,8 @@
+crud_from_scratch.txt
+
+1.install python 
+2.install django 
+3.install virtual enviornment 
+
+
+
