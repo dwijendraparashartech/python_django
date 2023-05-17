@@ -1,0 +1,8 @@
+syntax.txt
+
+
+1.lambda ::   lambda arguments : expression
+
+2.list ::  mylist = ["apple", "banana", "cherry"]
+
+3.

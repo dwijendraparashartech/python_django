@@ -1,0 +1,115 @@
+for.txt
+
+1.for loop for list 
+2.for loop for string 
+3.for loop with break statement
+4.for loop with continue statement
+5.for loop with range function
+6.else in for loop
+7.nested for loops 
+8.for loop with pass statement
+
+.................................................
+
+1.for loop for list 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+...........................
+
+
+2.for loop for string 
+for x in "banana":
+  print(x)
+
+...........................
+
+
+3.for loop with break statement :  With the break statement we can stop the loop before it has looped through all the items:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+
+ Exit the loop when x is "banana", but this time the break comes before the print:
+ fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+
+
+...........................
+
+
+4.for loop with continue statement : 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue
+  print(x)
+
+
+...........................
+
+
+5.for loop with range function
+for x in range(6):
+  print(x)
+
+for x in range(2, 6):
+  print(x)
+
+
+for x in range(2, 30, 3):
+  print(x)
+
+...........................
+
+
+6.else in for loop
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
+
+
+...........................
+
+
+7.nested for loops 
+A nested loop is a loop inside a loop.
+The "inner loop" will be executed one time for each iteration of the "outer loop":
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+
+...........................
+
+
+
+8.for loop with pass statement:
+for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
+
+for x in [0, 1, 2]:
+  pass
+
+...........................
+
+
